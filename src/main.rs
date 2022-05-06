@@ -2,6 +2,8 @@ use std::env;
 use std::fs;
 use std::io::ErrorKind;
 
+use korri::lexer;
+
 fn main() {
     let args: Vec<String> = env::args().collect::<Vec<String>>().drain(1..).collect();
     if args.is_empty() {
@@ -9,7 +11,7 @@ fn main() {
         std::process::exit(1);
     }
     let filepath = &args[0];
-    debug_print_file(filepath);
+    lex_file_from_path(filepath);
 }
 
 fn file_error(error: ErrorKind, filepath: &str) {
@@ -25,12 +27,12 @@ fn file_error(error: ErrorKind, filepath: &str) {
     std::process::exit(1);
 }
 
-fn debug_print_file(filepath: &str) {
+fn lex_file_from_path(filepath: &str) {
     let file_result = fs::read_to_string(filepath);
     match file_result {
         Ok(v) => {
             println!("File found and read successfully!");
-            println!("{}", v);
+            lexer::lex_file(&v);
         },
         Err(e) => file_error(e.kind(), filepath),
     }
