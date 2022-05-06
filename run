@@ -1,8 +1,9 @@
-# /bin/sh
+#!/bin/bash
 ### BEGIN INIT INFO
-# Description: Runs clippy pedantic so I don't have to type the whole command every 4 seconds
+# Description: Runs clippy pedantic and then the program
 ### END INIT INFO
 
 # Author: Robin Chapple <r.chapple.business@gmail.com>
 
 cargo clippy -- -W clippy::pedantic
+cargo run $1
