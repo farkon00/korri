@@ -17,8 +17,8 @@ fn main() {
 fn file_error(error: ErrorKind, filepath: &str) {
     match error {
         ErrorKind::NotFound => {
-            println!("[ERROR] File '{}' not found.", filepath); 
-        },
+            println!("[ERROR] File '{}' not found.", filepath);
+        }
         _ => {
             println!("[ERROR] File I/O error encountered: {:?}", error);
         }
@@ -33,7 +33,7 @@ fn lex_file_from_path(filepath: &str) {
         Ok(v) => {
             println!("File found and read successfully!");
             lexer::lex_file(&v);
-        },
+        }
         Err(e) => file_error(e.kind(), filepath),
     }
 }

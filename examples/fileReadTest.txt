@@ -1,6 +1,6 @@
 If you can read this
 
-Then that means
+Then    that means
 Rust has read the file
 correctly
 

@@ -4,6 +4,8 @@
 
 __Korri__ is a simple programming language built and compiled in Rust as practice for making programming languages.
 
+Currently __Korri__ requires all tokens to be separated by a ' ' (space) however this will be different in the future.
+
 ## Usage
 
 ```console
