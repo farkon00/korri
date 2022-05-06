@@ -21,8 +21,6 @@ Example:
 
 A full list of the floating point equivalent of integer operations can be found below:
 
-|----------------|---------|-----------------|
 | Floating Point | Integer | Example         |
 |----------------|---------|-----------------|
 | //             | /       | 5 // 2 = 2.5    |
-|----------------|---------|-----------------|
