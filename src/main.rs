@@ -26,9 +26,12 @@ fn file_error(error: ErrorKind, filepath: &str) {
 }
 
 fn debug_print_file(filepath: &str) {
-    let contents = fs::read_to_string(filepath);
-    match contents {
-        Ok(_) => println!("File found and read successfully!"),
+    let file_result = fs::read_to_string(filepath);
+    match file_result {
+        Ok(v) => {
+            println!("File found and read successfully!");
+            println!("{}", v);
+        },
         Err(e) => file_error(e.kind(), filepath),
     }
 }
