@@ -1,0 +1,14 @@
+2 yes
+2.3 yes
+2..3 no
+40.438293 yes
+9.o no
+9. no
+.13 yes
+4e10 yes
+4.3e10 yes
+4e2.2 no
+4e.2 no
+.2e10 yes
+e10 no
+10e no
