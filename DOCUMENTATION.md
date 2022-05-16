@@ -4,7 +4,7 @@ Here you will find a full documentation of the __Korri__ language.
 
 ## Simple Mathematics
 
-The basic operations `+`, `-`, `/`, `*`, and `^` are all present in __Korri__; add, subtract, divide\*, multiply, and exponential respectively.
+The basic operations `+`, `-`, `/`, `*`, and `^` are all present in __Korri__; add, subtract, integer divide\*, multiply, and exponential respectively.
 
 \* Divide here refers to integer division. For example, `5 / 2` will return `2` rather than `2.5`. For floating point division, see [Floating Point Arithmetic](#floating-point-arithmetic).
 
