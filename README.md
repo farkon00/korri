@@ -1,6 +1,6 @@
 # Korri
 
-![](https://img.shields.io/github/commit-activity/m/morrigan-plus-plus/korri) ![](https://img.shields.io/github/commit-activity/m/morrigan-plus-plus/korri) ![](https://img.shields.io/tokei/lines/github/morrigan-plus-plus/korri)
+![](https://img.shields.io/github/commit-activity/m/morrigan-plus-plus/korri) ![](https://img.shields.io/tokei/lines/github/morrigan-plus-plus/korri)
 
 __Korri__ is a simple programming language built and compiled in Rust as practice for making programming languages.
 
