@@ -26,7 +26,7 @@ fn lex_line(line: &str) -> Vec<LexToken> {
     tokens
 }
 
-fn numeric(to_check: &str) -> bool {
+pub fn numeric(to_check: &str) -> bool {
     let mut characters = to_check.chars().peekable();
     let mut last_char: char = ' ';
     let mut seen_dot: bool = false;
