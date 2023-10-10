@@ -2,6 +2,9 @@
 
 ![](https://img.shields.io/github/commit-activity/m/morrigan-plus-plus/korri) ![](https://img.shields.io/tokei/lines/github/morrigan-plus-plus/korri)
 
+# THIS REPOSITORY ISN'T MINE
+This is a fork of a project, that belongs to [cinnabasil](https://github.com/cinnabasil), for which the original repository was removed.
+
 __Korri__ is a simple programming language built and compiled in Rust as practice for making programming languages.
 
 Currently __Korri__ requires all tokens to be separated by a ' ' (space) however this will be different in the future.
